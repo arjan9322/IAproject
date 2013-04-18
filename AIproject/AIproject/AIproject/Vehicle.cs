@@ -7,8 +7,9 @@ namespace AIproject
 {
     class Vehicle : MovingEntity
     {
-        public Vehicle()
+        public Vehicle(Vector2 startingPos)
         {
+            Pos = startingPos;
             Velocity = new Vector2();
         }
         public override void Render()

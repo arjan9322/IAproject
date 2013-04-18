@@ -23,7 +23,7 @@ namespace AIproject
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
-            car = new Vehicle();
+            car = new Vehicle(new Vector2(4f,4f));
         }
 
         /// <summary>
