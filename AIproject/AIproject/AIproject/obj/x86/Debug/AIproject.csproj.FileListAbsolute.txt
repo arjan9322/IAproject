@@ -1,0 +1,6 @@
+c:\users\arjan\documents\visual studio 2010\Projects\AIproject\AIproject\AIproject\bin\x86\Debug\AIproject.exe
+c:\users\arjan\documents\visual studio 2010\Projects\AIproject\AIproject\AIproject\bin\x86\Debug\AIproject.pdb
+c:\users\arjan\documents\visual studio 2010\Projects\AIproject\AIproject\AIproject\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\arjan\documents\visual studio 2010\Projects\AIproject\AIproject\AIproject\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+c:\users\arjan\documents\visual studio 2010\Projects\AIproject\AIproject\AIproject\obj\x86\Debug\AIproject.exe
+c:\users\arjan\documents\visual studio 2010\Projects\AIproject\AIproject\AIproject\obj\x86\Debug\AIproject.pdb
