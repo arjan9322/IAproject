@@ -113,6 +113,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Game1.cs" />
     <Compile Include="Tile and board\Camera.cs" />
+    <Compile Include="Tile and board\Car.cs" />
     <Compile Include="Tile and board\MapCell.cs" />
     <Compile Include="Tile and board\Tile.cs" />
     <Compile Include="Tile and board\TileMap.cs" />
