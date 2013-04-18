@@ -1,2 +1,0 @@
-c:\users\arjan\documents\visual studio 2010\Projects\AIproject\AIproject\AIprojectContent\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\vincent\Documents\Github\XNA\IAproject\AIproject\AIproject\AIprojectContent\obj\x86\Debug\ResolveAssemblyReference.cache

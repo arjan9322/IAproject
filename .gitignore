@@ -11,3 +11,8 @@
 *.lai
 *.la
 *.a
+
+/AIproject/AIproject/AIproject/bin/x86/
+/AIproject/AIproject/AIproject/bin/
+/AIproject/AIproject/AIproject/obj/x86
+/AIproject/AIproject/AIproject/obj/
