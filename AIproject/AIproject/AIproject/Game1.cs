@@ -52,7 +52,7 @@ namespace AIproject
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
             Tile.TileSetTexture = Content.Load<Texture2D>("part2_tileset");
-            Car.CarTexture = Content.Load<Texture2D>("part2_tileset");
+            Vehicle.CarTexture = Content.Load<Texture2D>("part2_tileset");
             // TODO: use this.Content to load your game content here
         }
 
