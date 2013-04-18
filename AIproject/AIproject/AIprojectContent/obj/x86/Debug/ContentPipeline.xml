@@ -7,10 +7,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>c:\users\arjan\documents\visual studio 2010\Projects\AIproject\AIproject\AIprojectContent\</RootDirectory>
-      <LoggerRootDirectory>c:\users\arjan\documents\visual studio 2010\Projects\AIproject\AIproject\AIproject\</LoggerRootDirectory>
-      <IntermediateDirectory>c:\users\arjan\documents\visual studio 2010\Projects\AIproject\AIproject\AIprojectContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>c:\users\arjan\documents\visual studio 2010\Projects\AIproject\AIproject\AIproject\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Arjan\github\AIporject\IAproject\AIproject\AIproject\AIprojectContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Arjan\github\AIporject\IAproject\AIproject\AIproject\AIproject\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Arjan\github\AIporject\IAproject\AIproject\AIproject\AIprojectContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Arjan\github\AIporject\IAproject\AIproject\AIproject\AIproject\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

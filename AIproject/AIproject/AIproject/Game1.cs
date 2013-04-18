@@ -18,11 +18,12 @@ namespace AIproject
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
-
+        Vehicle car;
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
+            car = new Vehicle();
         }
 
         /// <summary>
