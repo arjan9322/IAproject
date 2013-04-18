@@ -4,3 +4,10 @@ c:\users\arjan\documents\visual studio 2010\Projects\AIproject\AIproject\AIproje
 c:\users\arjan\documents\visual studio 2010\Projects\AIproject\AIproject\AIproject\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 c:\users\arjan\documents\visual studio 2010\Projects\AIproject\AIproject\AIproject\obj\x86\Debug\AIproject.exe
 c:\users\arjan\documents\visual studio 2010\Projects\AIproject\AIproject\AIproject\obj\x86\Debug\AIproject.pdb
+C:\Users\vincent\Documents\Github\XNA\IAproject\AIproject\AIproject\AIproject\bin\x86\Debug\AIproject.exe
+C:\Users\vincent\Documents\Github\XNA\IAproject\AIproject\AIproject\AIproject\bin\x86\Debug\AIproject.pdb
+C:\Users\vincent\Documents\Github\XNA\IAproject\AIproject\AIproject\AIproject\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\vincent\Documents\Github\XNA\IAproject\AIproject\AIproject\AIproject\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\vincent\Documents\Github\XNA\IAproject\AIproject\AIproject\AIproject\obj\x86\Debug\AIproject.exe
+C:\Users\vincent\Documents\Github\XNA\IAproject\AIproject\AIproject\AIproject\obj\x86\Debug\AIproject.pdb
+C:\Users\vincent\Documents\Github\XNA\IAproject\AIproject\AIproject\AIproject\bin\x86\Debug\Content\part2_tileset.xnb

@@ -9,6 +9,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 
+
 namespace AIproject
 {
     /// <summary>
@@ -18,6 +19,10 @@ namespace AIproject
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+
+        TileMap myMap = new TileMap();
+        int squaresAcross = 18;
+        int squaresDown = 11;
 
         public Game1()
         {
@@ -46,7 +51,7 @@ namespace AIproject
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
-
+            Tile.TileSetTexture = Content.Load<Texture2D>("part2_tileset");    
             // TODO: use this.Content to load your game content here
         }
 
@@ -70,6 +75,27 @@ namespace AIproject
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
 
+            KeyboardState ks = Keyboard.GetState();
+            if (ks.IsKeyDown(Keys.Left))
+            {
+                Camera.Location.X = MathHelper.Clamp(Camera.Location.X - 2, 0, (myMap.MapWidth - squaresAcross) * Tile.TileWidth);
+            }
+
+            if (ks.IsKeyDown(Keys.Right))
+            {
+                Camera.Location.X = MathHelper.Clamp(Camera.Location.X + 2, 0, (myMap.MapWidth - squaresAcross) * Tile.TileWidth);
+            }
+
+            if (ks.IsKeyDown(Keys.Up))
+            {
+                Camera.Location.Y = MathHelper.Clamp(Camera.Location.Y - 2, 0, (myMap.MapHeight - squaresDown) * Tile.TileHeight);
+            }
+
+            if (ks.IsKeyDown(Keys.Down))
+            {
+                Camera.Location.Y = MathHelper.Clamp(Camera.Location.Y + 2, 0, (myMap.MapHeight - squaresDown) * Tile.TileHeight);
+            }
+
             // TODO: Add your update logic here
 
             base.Update(gameTime);
@@ -82,6 +108,35 @@ namespace AIproject
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
+
+            spriteBatch.Begin();
+
+            Vector2 firstSquare = new Vector2(Camera.Location.X / Tile.TileWidth, Camera.Location.Y / Tile.TileHeight);
+            int firstX = (int)firstSquare.X;
+            int firstY = (int)firstSquare.Y;
+
+            Vector2 squareOffset = new Vector2(Camera.Location.X % Tile.TileWidth, Camera.Location.Y % Tile.TileHeight);
+            int offsetX = (int)squareOffset.X;
+            int offsetY = (int)squareOffset.Y;
+
+            for (int y = 0; y < squaresDown; y++)
+            {
+                for (int x = 0; x < squaresAcross; x++)
+                {
+                    foreach (int tileID in myMap.Rows[y + firstY].Columns[x + firstX].BaseTiles)
+                    {
+                        spriteBatch.Draw(
+                            Tile.TileSetTexture,
+                            new Rectangle(
+                                (x * Tile.TileWidth) - offsetX, (y * Tile.TileHeight) - offsetY,
+                                Tile.TileWidth, Tile.TileHeight),
+                            Tile.GetSourceRectangle(tileID),
+                            Color.White);
+                    }
+                }
+            }
+
+            spriteBatch.End();
 
             // TODO: Add your drawing code here
 
