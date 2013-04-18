@@ -107,5 +107,5 @@ _UpgradeReport_Files/
 Backup*/
 UpgradeLog*.XML
 
-GTA/GTA/GTA/GTA.csproj.Debug.cachefile
-GTA/GTA/GTA/GTA.csproj.Release.cachefile
+IAproject/AIproject/AIproject/AIproject.csproj.Debug.cachefile
+IAproject/AIproject/AIproject/AIproject.csproj.Release.cachefile
